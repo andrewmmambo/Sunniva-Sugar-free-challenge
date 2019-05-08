@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="Sugar Free Challenge" content="The Sugar Free Challenge Website">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
+    
+    <link rel="icon" href="#">
+    
+    <title>Sugar Free Challenge</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    
+    <!-- internally supplied assets -->
+    <link rel="stylesheet" href="assets/css/sfc_style.css" type="text/css"/>
+    <script type="text/javascript" src="assets/javascript/sfc_script.js"></script>
+    
+    <script src="https://use.fontawesome.com/64cc48c560.js"></script>
+  </head>
+  
+  <body style="background-color: #eeeeee;">
+    <main role="main">
+      <article>
+      <!-- ******************    NAVIGATION BAR      *********************** -->
+      <div class="navbar navbar-default navbar-static-top "> <!-- The navbar-inverse makes the nav bar to be black and fixed at the top when scrolling-->
+        <div class="container-fluid">
+    			<ul class="nav navbar-nav">
+    				<li style="top:0.1em;" ><a href="#"> <img src="assets/img/logoInBLK.png"  height="50em"> </a></li>
+    			</ul>
+    			<ul class="nav navbar-nav navbar-right">
+    				<li style="top:1em; bottom:1em"><a href="#desc"><p class="navigation">Sugar Free Challenge</p></a></li>
+    				<li style="top:1em;" ><a href="#part"><p class="navigation">Participate</p></a></li>
+    				<li style="top:1em;" ><a href="#join" ><p class="navigation">Join</p></a></li>
+    			</ul>
+  		  </div>
+  		</div>
+  		  <!-- ************** Sugar Free Challenge Header ******************** -->
+        
+      <div class="container" stye="padding: 0; margin: 0">
+          <div class="cover-image">
+            <img class="img-responsive" src="assets/img/newYearBanneWeb.jpg">
+          </div>
+      </div>
+      
+      <br>
+      <br>
+      
+          <!-- Content Section -->
+          <div class="container marketing">
+            <!-- Three columns of text below the carousel -->
+            <section id="content_section" style="text-align: center;">
+              <div class="row">
+                <div class="col-lg-4" id="desc">
+                  <img class="img-rounded" src="assets/img/blackBrewSingle.jpg" alt="Generic placeholder image" width="320em" height="300em">
+                  <h2 "text-align: center;">#sugarfreechallenge</h2>
+                  <div class="text-justify">
+                    <p class="gothic">We exist to inspire healthy, productive lifestyles. Start 2017 right by taking part in the Sunniva #sugarfreechallenge. 12 days of zero sugar. The journey to becoming super starts right now, seize the day.</p>
+                    
+                  </div>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4" id="part">
+                  <img class="img-rounded" src="assets/img/Swap1.jpg" alt="Generic placeholder image" width="320em" height="300em">
+                  <h2 stye="text-align: center;"><p>How to Participate</p></h2>
+                  <div class="text-justify">
+                    <ol class="gothic">
+                      <li> Head to <a href="https://sunniva.co/">Sunniva</a> and order a FREE 12 pack of Black Brew Super Coffee, Use "SugarFree" at checkout.</li> 
+                      <li> Post a video nominating 2 friends and use the harshtag #sugarfreechallenge.</li> 
+                      <li> On January 9th, start a 12-day cleanse free of sugar. Share your journey and tag us along the way!</li> 
+                    </ol>
+                    
+                  </div>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4" id="join">
+                  <img class="img-rounded" src="assets/img/blackBrew.jpg" alt="Generic placeholder image" width="320em" height="300em">
+                  <h2 class="center" style="margin-bottom: 0.2em;" "text-align: center;">Join the mission</h2>
+                  <form action="save_json.php" method="post" style="margin: auto; text-align: left;">
+                    <fieldset class="account-info">
+                      <label>Enter Your Name
+                        <input type="text" name="name">
+                      </label>
+                      <label>Enter Your Email
+                        <input type="email" name="email">
+                      </label>
+                    </fieldset>
+                    <fieldset class="account-action">
+                      <input class="btn" type="submit" name="submit" value="Join" id="join_btn">
+                    </fieldset>
+                  </form>
+                </div><!-- /.col-lg-4 -->
+              </div><!-- /.row -->
+            </section>  
+                <!-- ***************************** FOOTER ***************************** -->
+        <br><br>
+        <footer style="text-align: center;">
+          <p>
+            <a href="https://www.facebook.com/sunnivaco/" style="margin-right: 3em;"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/sunnivatweets" style="margin-right: 3em;"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/drinksupercoffee/" style="margin-right: 3em;"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+          </p>
+        </footer>
+        </article>
+    </main>
+  </body>
+</html>
